@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .jumbotron {
+    font-size: 20px;
+    padding: 20px;
+    background-color: #ffc93c;
+    text-align: center;
+    color: black;
+}
+
+nav {
+    background-color: #ffc93c;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #dbf6e9;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+p {
+    margin: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.civ5 {
+    width: 25%;
+    height: 25%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-weight: bold;
+}
+
+.terrain-image {
+    margin: 4px;
+    width: 75%;
+    height: 75%;
+}
+
+.gajah-mada-ingame {
+    width: 75%;
+    height: 75%;
+}
+
+.city-states {
+    width: 40%;
+    height: 40%;
+}
+
+.resources-list {
+    width: 400px;
+    height: 300px;
+}
+
+.borobudur-ingame {
+    width: 75%;
+    height: 75%;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social-policies-list {
+    width: 75%;
+    height: 75%;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.profile header {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #31326f;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
